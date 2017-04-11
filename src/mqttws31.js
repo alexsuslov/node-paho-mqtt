@@ -15,7 +15,7 @@
  *    Guozhen Huang - improve to umd library
  *******************************************************************************/
 
-(function(factory) {
+export default (function(factory) {
     var root = (typeof self == 'object' && self.self === self && self) ||
       (typeof global == 'object' && global.global === global && global);
 
